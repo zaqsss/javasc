@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História de Linguagens</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="navbar">
+        <h1>História do JavaScript</h1>
+        <img src="img/1698604163003.png" alt="Logo" width="150px" height="100px">
+    </div>
+
+    <h3>JavaScript</h3>
+    <p>
+        JavaScript é uma das linguagens de programação mais importantes para o desenvolvimento web. Vamos explorar sua história e como ele se relaciona com HTML, CSS e PHP.
+    </p>
+
+    <h3>História do JavaScript</h3>
+    <p>
+        JavaScript foi criado em 1995 por Brendan Eich, enquanto trabalhava na Netscape Communications. A princípio, foi desenvolvido em apenas 10 dias para ser uma linguagem de script leve que pudesse ser incorporada em páginas HTML. Seu objetivo era permitir interatividade e dinamismo no lado do cliente (front-end) da web.
+    </p>
+    <p>
+        Inicialmente, JavaScript era chamado de Mocha, depois LiveScript, até finalmente adotar o nome JavaScript, devido a uma estratégia de marketing da Netscape, aproveitando a popularidade da linguagem Java na época, apesar de não ter relação direta com Java além de algumas semelhanças na sintaxe.
+    </p>
+
+    <h3>HTML, CSS e PHP</h3>
+    <p>
+        HTML (HyperText Markup Language) é a linguagem de marcação usada para estruturar o conteúdo da web. Ele define a estrutura e os elementos de uma página, como títulos, parágrafos e imagens.
+    </p>
+    <p>
+        CSS (Cascading Style Sheets) é responsável por estilizar a página web. Com CSS, desenvolvedores podem controlar cores, layouts, fontes e a estética geral de uma página HTML.
+    </p>
+    <p>
+        PHP (Hypertext Preprocessor) é uma linguagem de script que roda no lado do servidor, responsável por processar dados e gerar páginas dinâmicas que são enviadas ao navegador. Enquanto o JavaScript atua no lado do cliente, o PHP lida com o backend.
+    </p>
+
+    
+    <button id="quizButton">Abrir Quiz</button>
+
+
+    <div id="quizPopup" class="popup hidden">
+        <h2>Quiz sobre JavaScript</h2>
+        <p>Qual foi o nome original do JavaScript?</p>
+        <button class="quiz-option" data-answer="wrong">Java</button>
+        <button class="quiz-option" data-answer="correct">Mocha</button>
+        <button class="quiz-option" data-answer="wrong">ECMAScript</button>
+
+   
+        <div id="quizResult" class="hidden">
+            <p id="resultMessage"></p>
+            <p id="curiosity"></p>
+            <p id="explanation"></p>
+            <button id="closeQuiz">Fechar Quiz</button>
+        </div>
+
+       
+<button id="curiosityButton">Ver Curiosidades</button>
+
+
+<button id="infoButton">Ver Informações Adicionais</button>
+
+
+<div id="curiosityPopup" class="popup hidden">
+    <h2>Curiosidades sobre JavaScript</h2>
+    <p>JavaScript foi inicialmente criado em apenas 10 dias.</p>
+    <p>O nome JavaScript foi escolhido para aproveitar a popularidade de Java, apesar de não estarem relacionados.</p>
+    <button id="closeCuriosity">Fechar</button>
+</div>
+
+
+<div id="infoPopup" class="popup hidden">
+    <h2>Informações Adicionais</h2>
+    <p>ECMAScript é o padrão oficial que define a linguagem JavaScript.</p>
+    <p>JavaScript é utilizado tanto no front-end quanto no back-end, graças ao Node.js.</p>
+    <button id="closeInfo">Fechar</button>
+</div>
+
+    </div>
+</body>
+</html>

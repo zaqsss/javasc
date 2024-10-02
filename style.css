@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(226, 232, 235);
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    height: 100px;
+    background-image: url(img/curso_388.jpg);
+    background-size: auto;
+}
+
+.navbar h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.navbar img {
+    position: relative;
+    bottom: 80px;
+    right: 20px;
+}
+
+#quizButton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#quizButton:hover {
+    background-color: #0056b3;
+}
+
+.popup {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    width: 300px;
+    display: none;
+}
+
+.popup h2 {
+    margin-bottom: 15px;
+}
+
+.popup button {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.popup button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+#quizResult {
+    margin-top: 20px;
+    color: #FFD700;
+}
+
+
+@media (max-width: 768px) {
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: medium;
+    }
+}
+
+@media (max-width: 480px) {
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: small;
+    }
+
+    #quizButton {
+        font-size: 16px;
+    }
+}
+
+#curiosityButton, #infoButton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#curiosityButton:hover, #infoButton:hover {
+    background-color: #0056b3;
+}
+
+.popup {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    width: 300px;
+    display: none;
+}
